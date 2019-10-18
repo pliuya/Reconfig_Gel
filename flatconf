@@ -1,0 +1,10 @@
+time 0.0 4000.0
+h 0.0002
+dump vtk 10000
+log screen 1000
+temperature 36
+fiber 1. 1. 1
+#py# temperature 20
+#py# N 101 11 32
+
+#py# fiber 1 7 2 2 7 2
